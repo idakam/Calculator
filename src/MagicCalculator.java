@@ -25,7 +25,8 @@ public class MagicCalculator extends Calculator{
 	//Factorial of a number
 	public static int factorialNumber(int num1) {
 		if(num1 < 0) {
-			return 0;
+			String num = null;
+			return Integer.valueOf(num);
 		} else if (num1 == 0 || num1 == 1) {
 			return 1;
 		} else {
